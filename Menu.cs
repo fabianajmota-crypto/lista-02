@@ -37,12 +37,44 @@ public class Menu
              if (opcao == 1)
             {
                 AtividadesCondicionais.Atividade01();
-            }
-
-            Console.WriteLine("Pressione qualquer tecla para voltar ao menu...");
+            } 
+            else if (opcao == 2)
+            {
+                 AtividadesCondicionais.Atividade02();
+            } else if (opcao == 3)
+            {
+                 AtividadesCondicionais.Atividade03();
+            } else if (opcao == 4)
+            {
+                AtividadesCondicionais.Atividade04();
+            } else if (opcao ==5)
+            {
+                AtividadesCondicionais.Atividade05();
+            } else if (opcao ==6)
+            { 
+                AtividadesCondicionais.Atividade06();
+            } else if (opcao ==7) 
+            { 
+                AtividadesCondicionais.Atividade07();
+            }  else if (opcao ==8)
+            {
+                AtividadesCondicionais.Atividade08();
+            } else if (opcao ==9)
+            {
+                AtividadesCondicionais.Atividade09();
+            } else if (opcao ==10)
+            {
+            
+              AtividadesCondicionais.Atividade10();
+            } else if (opcao ==11)
+            {
+                AtividadesRepeticao.Atividade11();
+            } 
+             Console.WriteLine("Pressione qualquer tecla para voltar ao menu...");
             Console.ReadKey();
             Console.Clear();
-        
+        Console.Clear();
+
         }
 
     }
